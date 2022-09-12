@@ -1,0 +1,46 @@
+.menu {
+    text-align: center;
+}
+
+p::selection, h1::selection, pre::selection{
+    background-color: #FFE898;
+}
+
+a:link, a:visited {
+    background-color: orange;
+    color: rgb(60, 60, 60);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: navajowhite;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #FFE898;
+}
+
+p {
+    color: orange;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: monospace;
+}
+
+pre {
+    color: orange;
+    text-align: center;
+    font-family: monospace;
+}
+
+.flamerpage {
+    font-size: 30px;
+}
